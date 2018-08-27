@@ -4,4 +4,7 @@ class AppointmentsController < ApplicationController
   def show
   end
 
+  def set_appointment
+    @appointment = Appointment.find_by_id(params[:id])
+  end
 end
