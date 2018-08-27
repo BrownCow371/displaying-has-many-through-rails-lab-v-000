@@ -17,5 +17,5 @@ private
   def patients_params
     params.require(:patient).permit(:name, :age)
   end
-  
+
 end
