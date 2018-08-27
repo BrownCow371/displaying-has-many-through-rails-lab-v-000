@@ -5,5 +5,5 @@ class PatientsController < ApplicationController
   def set_patient
     @patient = Patient.find_by_id(params[:id])
   end
-  
+
 end
